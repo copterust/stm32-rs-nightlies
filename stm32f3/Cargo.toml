@@ -1,6 +1,6 @@
 [package]
 edition = "2018"
-name = "stm32f3"
+name = "stm32f3-copterust"
 version = "0.12.1"
 authors = ["Adam Greig <adam@adamgreig.com>", "stm32-rs Contributors"]
 description = "Device support crates for STM32F3 devices"
@@ -13,7 +13,7 @@ license = "MIT/Apache-2.0"
 [dependencies]
 bare-metal = "0.2.4"
 vcell = "0.1.0"
-cortex-m = ">=0.5.8,<0.7"
+cortex-m = ">=0.6"
 
 [dependencies.cortex-m-rt]
 optional = true
